@@ -1,5 +1,5 @@
 section{display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 1fr;
     gap: 1rem;
 }
@@ -10,11 +10,11 @@ width: auto;
 padding-block: 20%;
 border: 2px solid black;
 text-align: center;
+
 }
 
-.producto{grid-row: 2/4;
+.producto{grid-row: 1/3;
 }
 
-.misProductos{grid-column: 3/5;}
+.misProductos{grid-column: 2/4;}
 
-.pedidos{grid-column: 1;}
